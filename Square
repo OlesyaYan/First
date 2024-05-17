@@ -1,0 +1,7 @@
+def calculate_squared_distance(distance):
+    return distance ** 2
+
+# Example usage
+planet_distance = 1.0  # In astronomical units (AU)
+squared_distance = calculate_squared_distance(planet_distance)
+print("The squared distance of the planet from the sun is:", squared_distance)
